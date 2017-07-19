@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Mail form</title>
+    </head>
+    <body>
+        <div>
+            <strong>Send message:</strong><br>
+        </div>
+        <form method="post" action="sendmail.php">
+            <div>
+                To:<br>
+                <input type="text" size="40" name="to">
+                <br>
+                Subject:
+                <br>
+                <input type="text" size="40" name="subject">
+                <br>
+                Message:
+                <br>
+                <textarea rows="5" cols="30" name="content"></textarea>
+                <br>
+                <input type="submit" value="Send">
+            </div>
+        </form>
+    </body>
+</html>

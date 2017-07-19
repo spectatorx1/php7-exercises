@@ -1,0 +1,25 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+        <title>Mail form</title>
+    </head>
+    <body>
+        <div>
+            <strong>Send message:</strong><br />
+        </div>
+        <form method="post" action="sendmail.php">
+            <div>
+                Subject:
+                <br />
+                <input type="text" size="40" name="subject" />
+                <br />
+                Contents of message:
+                <br />
+                <textarea rows="5" cols="20" name="content"></textarea>
+                <br />
+                <input type="submit" value="Send" />
+            </div>
+        </form>
+    </body>
+</html>
